@@ -1,5 +1,6 @@
 Project1::Application.routes.draw do
   get 'about' => 'pages#about'
+  get 'dontpush' => 'pages#dontpush'
 
 
   root :to => 'pages#home'
